@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Periksa apakah sudah login atau belum
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+}
+
+// Halaman setelah login
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +27,8 @@
     <a class="ms-4 navbar-brand">Edit Curriculum Vitae</a>
     <form class="form-inline">
       <a href="index.php" class="btn btn-primary my-2 my-sm-0 me-4">Back</a>
+      <a href="logout.php" class="btn btn-danger my-2 my-sm-0 me-4">Logout</a>
+
     </form>
   </nav>
   <div class="container">

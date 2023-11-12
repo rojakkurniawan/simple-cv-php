@@ -14,8 +14,8 @@
     <nav class="navbar navbar-light fixed-top   ">
         <div class="container-fluid">
             <a class="navbar-brand ms-5">Curriculum Vitae</a>
-            <a href="edit.php"><button class="btn btn-primary me-5" type="submit">Edit</button></a>
-
+            <a href="update.php"><button class="btn btn-primary me-5" type="submit">Edit</button></a>
+            
         </div>
     </nav>
 
