@@ -20,7 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $error_message = "Username atau password salah!";
     }
 
-    $stmt->close(); 
+    $stmt->close(); // Tutup statement
+}
 
 ?>
 
